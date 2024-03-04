@@ -1,5 +1,5 @@
 import telebot
-from app.config import TOKEN_TELEGRAM, TOKEN_OPENAI
+from config import TOKEN_TELEGRAM, TOKEN_OPENAI
 from openai import OpenAI
 
 client = OpenAI(api_key=TOKEN_OPENAI)
